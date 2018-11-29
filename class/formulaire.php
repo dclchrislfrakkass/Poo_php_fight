@@ -27,12 +27,12 @@ class formulaire
 
     public function echoForm()
     {
-        echo '<li>nom du perso '.$this->num.': '.$this->nom.'</li>';
-        echo '<li>vie du perso '.$this->num.': '.$this->vie.'</li>';
-        echo '<li>force magique du perso '.$this->num.': '.$this->forceMagique.'</li>';
-        echo '<li>force brute du perso '.$this->num.': '.$this->forceBrute.'</li>';
-        echo '<li>armure du perso '.$this->num.': '.$this->armure.'</li>';
-        echo '<li>soin du perso '.$this->num.': '.$this->soin.'</li>';
+        echo '<li>Nom du perso '.$this->num.': '.$this->nom.'</li>';
+        echo '<li>Vie du perso '.$this->num.': '.$this->vie.'</li>';
+        echo '<li>Force magique du perso '.$this->num.': '.$this->forceMagique.'</li>';
+        echo '<li>Force brute du perso '.$this->num.': '.$this->forceBrute.'</li>';
+        echo '<li>Armure du perso '.$this->num.': '.$this->armure.'</li>';
+        echo '<li>Soin du perso '.$this->num.': '.$this->soin.'</li>';
         echo '</br></br>';
     }
 }

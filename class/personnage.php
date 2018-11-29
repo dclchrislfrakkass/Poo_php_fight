@@ -1,3 +1,4 @@
+
 <?php
 
 
@@ -49,8 +50,8 @@ class personnage
         echo 'il reste à <strong>'.$defenseur->nom.' </strong>'.$defenseur->vie.' points de vie';
         echo '</br>';
         echo '</br>';
-        $this->estVivant();
-        $defenseur->estVivant();
+        // $this->estVivant();
+        // $defenseur->estVivant();
 
         echo '<hr>';
     }
@@ -60,13 +61,13 @@ class personnage
         echo '<i class="fas fa-fist-raised"></i><strong>'.$this->nom.' </strong>attaque brutalement <strong>'.$defenseur->nom.'</strong></br>';
         $attaqueSubie = $this->forceBrute - $defenseur->armure;
         $defenseur->vie -= $attaqueSubie;
-        echo 'il frappe à '.$this->forceBrute.' mais <strong>'.$defenseur->nom.' </strong>a une armure de '.$defenseur->armure.'</br>';
+        echo 'il frappe avec '.$this->forceBrute.' points de dégats mais <strong>'.$defenseur->nom.' </strong>a une armure de '.$defenseur->armure.'</br>';
         echo 'il lui enlève donc '.$attaqueSubie.' points de vie </br>';
         echo 'il reste à <strong>'.$defenseur->nom.'</strong> '.$defenseur->vie.' points de vie';
         echo '</br>';
         echo '</br>';
-        $this->estVivant();
-        $defenseur->estVivant();
+        // $this->estVivant();
+        // $defenseur->estVivant();
         echo '<hr>';
     }
 

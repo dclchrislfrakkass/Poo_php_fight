@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Combat avec formulaire</title>
@@ -27,7 +28,7 @@
         $myForm = formCreate();
 
         echo '<form action="./create.php" method="get" name="monForm"><ul>';
-        echo $myForm[0]->echoForm().$myForm[1]->echoForm().'<li><input type="submit" value="C\'est partit pour la castagne !"></li></ul></form>';
+        echo $myForm[0]->echoForm().$myForm[1]->echoForm().'<li><input id="send" type="submit" value="C\'est partit pour la castagne !"></li></ul></form>';
         ?>
     </main>
 
@@ -40,7 +41,7 @@
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-//old work
+//old work for try
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 
